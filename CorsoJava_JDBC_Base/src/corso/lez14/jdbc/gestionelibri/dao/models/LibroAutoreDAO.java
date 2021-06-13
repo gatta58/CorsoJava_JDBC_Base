@@ -47,6 +47,31 @@ public class LibroAutoreDAO {
 
 	@Override
 	public LibroAutore findById(int id) {
+			try {
+			
+			Connection connessione = ConnettoreDB.getIstanza().getConnessione();
+//			String sqlinsert = "INSERT INTO libro_autore (ref_libro, ref_autore) VALUES (?, ?)";
+//			
+//			PreparedStatement ps = connessione.prepareStatement(sqlinsert, Statement.RETURN_GENERATED_KEYS);
+//			ps.setInt(1, t.getRif_libro().getId());
+//			ps.setInt(2, t.getRif_autore().getId());
+//			ps.executeUpdate();
+//			
+//			ResultSet result = ps.getGeneratedKeys();
+//			result.next();
+//			
+//			LibroDAO libroDao = new LibroDAO();
+//			Libro rifLibro = libroDao.findById(result.getInt(1));
+//			t.setRif_libro(rifLibro);
+//			
+//			AutoreDAO autorDao = new AutoreDAO();
+//			Autore rifAutore = autorDao.findById(result.getInt(2));
+//			t.setRif_autore(rifAutore);
+//			
+//		} catch (Exception e) {
+//			System.out.println(e.getMessage());
+//		}
+		
 		return null;
 	}
 
